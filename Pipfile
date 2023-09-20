@@ -5,11 +5,15 @@ name = "pypi"
 
 [packages]
 flask = "*"
+flask-cors = "*"
+python-dotenv = "*"
+flask-sqlalchemy = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
 [scripts]
-dev = "main.py"
+dev = "flask run"
 
 [requires]
 python_version = "3.11"
